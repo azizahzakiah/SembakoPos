@@ -1,7 +1,7 @@
 # netlify.toml configuration file
 
 [build]
-  command = "npx expo export:web"
+  command = "npx expo export"
   publish = "dist"
 
 # Handle client-side routing for SPA
