@@ -1,0 +1,17 @@
+# netlify.toml configuration file
+
+[build]
+  command = "npx expo export:web"
+  publish = "dist"
+
+# Handle client-side routing for SPA
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Set cache headers for static assets
+[[headers]]
+  for = "/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
