@@ -1,23 +1,25 @@
 {
   "expo": {
-    "name": "test-tempo",
-    "slug": "test-tempo",
+    "name": "SembakoPos",
+    "slug": "sembakopos",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "owner": "your-expo-username",
+    "owner": "azizahzakiah",
     "extra": {
       "eas": {
-        "projectId": "your-project-id"
+        "projectId": "9e166561-63ac-4943-a822-5e7eb5cfae65"
       }
     },
+
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.azizahzakiah.sembakopos",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -27,21 +29,6 @@
       "bundler": "metro",
       "output": "static",
       "favicon": "./assets/images/favicon.png"
-    },
-    "plugins": [
-      "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
-        }
-      ]
-    ],
-    "experiments": {
-      "typedRoutes": true
     }
   }
 }
